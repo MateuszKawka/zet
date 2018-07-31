@@ -53,6 +53,7 @@ html {
     right: -300px;    
     opacity: 0;
     transition: .3s all ease-in-out;
+    display: none;
 }
 
 .menu-icon__icon {

@@ -1,0 +1,145 @@
+@media only screen and (max-width: 1400px) {
+    .worker__desc {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-container {
+        width: 75%;
+    }
+    .price {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav {
+        padding: 0 5rem;
+    }
+    .boxes {
+        width: 90%;
+    }
+    .team-container {
+        width: 85%;
+    }
+    .works-container a {
+        width: 50%;
+    }
+    .works-container a:last-child {
+        display: none;
+    }
+    .input-group {
+        width: 80%;
+    }
+    .contact-form__input {
+        width: 60%;
+    }
+    .contact-form__textarea {
+        width: 60%
+    }
+    .worker-box {
+        width: 30%;
+        height: auto;
+        padding: 0 0 3rem 0;
+        margin: 3rem 2rem 2rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .boxes {
+        width: 100%;
+    }
+    .box {
+        width: 50%;
+    }
+    .box__desc {
+        margin-bottom: 5rem;
+        padding: 0 5rem;
+    }
+    .clients__logo {
+        font-size: 8rem;
+        margin: 0 15%;
+    }
+    .clients__logo:last-child {
+        display: none;
+    }
+    .pricing-container {
+        flex-flow: column wrap;
+    }
+    .price {
+        width: 75%;
+        margin: 4rem 0 5rem 0;
+    }
+    .price--best {
+        border: none;
+    }
+    .info-list--best {
+        height: 242px
+    }
+    .price__title--best {
+        color: #C5B358;
+    }
+    .extras {
+        flex-flow: column wrap;
+    }
+    .overlay--half {
+        width: 100%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .input-group {
+        width: 100%;
+    }
+    .footer {
+        padding: 0 3rem;
+    }
+    .footer__logo {
+        width: 160px;
+        height: auto;
+    }
+    .footer-icons {
+        width: 192px;
+    }
+    .footer-icons__icon {
+        font-size: 2rem;
+    }
+    .worker-box {
+        width: none;
+    }
+    .worker {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    .map {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .boxes {
+        justify-content: center;
+    }
+    .box {
+        width: 100%;
+    }
+    .works-container a {
+        width: 100%;
+    }
+    .works-container a:nth-last-child(-n+9) {
+        display: none;
+    }
+    .clients__logo {
+        font-size: 4rem;
+    }
+    .worker-box {
+        width: 50%;
+    }
+    .box__desc {
+        padding: 0 3rem;
+    }
+}

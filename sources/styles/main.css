@@ -71,13 +71,14 @@ html {
 }
 
 .item__link {
+    width: 100%;
     text-decoration: none;
     color: #29323c;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    margin: 1rem 0;
+    font-size: 1.2rem; 
+    margin: 2rem 0;
     font-weight: 500;
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0);
     transition: .3s all ease-in-out;
 }
@@ -302,6 +303,7 @@ html {
     width: 20%;
     height: 100%;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .works__image {
@@ -451,6 +453,7 @@ html {
     flex-flow: column wrap;
     justify-content: space-around;
     padding: 4rem 0 4rem 0;
+    position: relative;
 }
 
 .team-container {
@@ -460,6 +463,7 @@ html {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .worker-box {
